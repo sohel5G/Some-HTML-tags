@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Tags Practise</title>
+    <style>
+        label{
+            display: block;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+
+    </header>
+
+    <main>
+        <section>
+            <h2>HTML Form</h2>
+            <form action="#">
+                <label for="name"> Your Name
+                    <input type="text" placeholder="Your name" id="name"> 
+                </label>
+                <label for="email"> Your email
+                    <input type="email" name="" id="email" placeholder="email">
+                </label>
+
+                <fieldset>
+                    <legend>
+                        Pick one pita
+                    </legend>
+                    <label for="chtoy"> Chtoy
+                        <input type="radio" id="chtoy" name="pita">
+                    </label>
+                    <label for="bapa"> Bapa
+                        <input type="radio" id="bapa" name="pita">
+                    </label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Check Box Tags</legend>
+                    <label for="one"> One Check
+                        <input type="checkbox" name="pita" id="one">
+                    </label>
+                    <label for="two"> Two Check
+                        <input type="checkbox" name="pita" id="two">
+                    </label>
+                </fieldset>
+                <br>
+                <input type="reset" value="Reset">
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>

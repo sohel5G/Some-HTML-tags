@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Table Tags</title>
+    <link rel="stylesheet" href="styles/nav.css">
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+        td, th {
+            border: 1px solid #000000;
+            padding: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="video.html">Video</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li>
+                    <a href="table.html">Table</a>
+                    <ul class="dropdown">
+                        <li><a href="video.html">Video</a></li>
+                        <li><a href="form.html">Form</a></li>
+                        <li>
+                            <a href="table.html">Table</a>
+                            <ul class="dropdown">
+                                <li><a href="video.html">Video</a></li>
+                                <li>
+                                    <a href="form.html">Form</a>
+                                    <ul class="dropdown">
+                                        <li><a href="video.html">Video</a></li>
+                                        <li><a href="form.html">Form</a></li>
+                                        <li><a href="table.html">Table</a></li>
+                                        <li><a href="blog.html">Blog</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="table.html">Table</a></li>
+                                <li><a href="blog.html">Blog</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="blog.html">Blog</a></li>
+                    </ul>
+                </li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </nav>
+       
+    </header>
+
+    <main>
+        <h1>HTML table tags</h1>
+        <table>
+            <thead>
+                <th>sallary</th>
+                <th>$5000</th>
+                <th>Araf</th>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Sohel</td>
+                    <td>Araf</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Araf</td>
+                    <td>Sohel</td>
+                </tr>
+                <tr>
+                    <td colspan="3">Full column </td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+
+            </tfoot>
+        </table>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+
+</html>
